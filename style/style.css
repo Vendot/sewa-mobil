@@ -116,7 +116,7 @@ body {
 
 /* FOOTER START*/
 .footer {
-  background-color: blue;
+  background-color: rgb(130, 136, 231);
   box-sizing: border-box;
   width: 100%;
   text-align: left;
@@ -129,6 +129,7 @@ body {
 .footer .footer-right {
   display: inline-block;
   vertical-align: top;
+  padding-top: 20px;
 }
 
 @media (max-height: 768px) {
@@ -141,12 +142,64 @@ body {
 }
 
 .footer .footer-left {
-  width: 30px;
+  width: 30%;
 }
 
-.footer h6 {
-  color: bisque;
+.footer h1 {
+  color: white;
   margin: 0;
-  padding-bottom: 20px;
+  padding-bottom: 4px;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+.footer p {
+  margin: 0px 0px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(243, 243, 243);
+}
+
+.footer .footer-center {
+  width: 35%;
+}
+
+.footer .footer-center p {
+  color: rgb(243, 243, 243);
+  text-align: justify;
+}
+
+.footer .footer-right {
+  width: 30%;
+  float: right;
+  text-align: right;
+}
+
+.footer .footer-right a {
+  text-decoration: none;
+  color: rgb(243, 243, 243);
+}
+
+.footer .footer-footer {
+  width: 100%;
+}
+.footer .footer-footer h1 {
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.footer .footer-footer .pembayaran {
+  text-align: center;
+}
+
+.footer .footer-footer img {
+  width: 3%
+}
+
+.footer .footer-footer .asosiasi {
+  text-align: center;
+}
+.footer .footer-footer .asosiasi img {
+  text-align: center;
+  width: 10%;
 }
