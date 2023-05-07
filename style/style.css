@@ -8,6 +8,7 @@ body {
 }
 
 
+
 /* CAROUSEL START
 -------------------------------------------------- */
 
@@ -42,6 +43,9 @@ body {
 }
 /* rtl:end:ignore */
 
+body .container-luxury {
+  background-color: blue;
+}
 
 /* Featurettes
 ------------------------- */
@@ -115,6 +119,11 @@ body {
 -------------------------------------------------- */
 
 /* FOOTER START*/
+
+.footer-logo img {
+  width: 3%;
+}
+
 .footer {
   background-color: rgb(130, 136, 231);
   box-sizing: border-box;
